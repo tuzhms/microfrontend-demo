@@ -1,0 +1,35 @@
+.center {
+    text-align: center;
+}
+
+.host-component {
+    margin: 0 50px;
+    padding: 15px;
+    background: rgb(200, 239, 255);
+    border: steelblue 4px solid;
+}
+
+.loading {
+    margin: 10px 0;
+    padding: 15px;
+    background: rgb(255, 254, 200);
+    border: rgb(180, 169, 70) 4px solid;
+}
+
+.error {
+    margin: 10px 0;
+    padding: 15px;
+    background: rgb(255, 200, 200);
+    border: rgb(180, 70, 70) 4px solid;
+}
+
+.loaded-component {
+    margin: 10px 0;
+    padding: 15px;
+    background: rgb(222, 255, 200);
+    border: rgb(70, 180, 79) 4px solid;
+}
+
+h2 {
+    margin-top: 0px;
+}
