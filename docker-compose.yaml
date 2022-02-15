@@ -12,3 +12,7 @@ services:
     build: ./service2/
     ports:
     - 8082:80
+  lib-provider:
+    build: ./lib-provider/
+    ports:
+    - 8083:80

@@ -4,11 +4,6 @@
   "description": "",
   "source": "src/service1.tsx",
   "module": "dist/service1.js",
-  "targets": {
-    "module": {
-      "includeNodeModules": ["react", "object-assign"]
-    } 
-  },
   "scripts": {
     "clean": "rm -rf dist",
     "build": "parcel build",

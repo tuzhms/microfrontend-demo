@@ -3,6 +3,13 @@
   "version": "1.0.0",
   "description": "",
   "source": "src/index.html",
+  "targets": {
+    "default": {
+      "includeNodeModules": {
+        "react": false
+      }
+    }
+  },
   "scripts": {
     "clean": "rm -rf dist",
     "build": "parcel build",
